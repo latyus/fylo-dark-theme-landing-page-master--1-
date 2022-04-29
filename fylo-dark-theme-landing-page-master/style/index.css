@@ -286,7 +286,10 @@ nav a{
 .innersemisection4{
     padding-top: 6em;
     display: flex;
+    padding-inline: 2em;
     justify-content: center;
+    background-color: #181F2B;
+
 }
 
 .innersemisection4 .early{
@@ -339,6 +342,19 @@ form{
 }
 
 
+
+#footer{
+    background-color: #0C1524;
+    padding: 12em 0 4em 6em;
+ 
+}
+.image2 img{
+    width: 140px;
+    height: 44px;
+    margin-bottom: 1.5em;
+}
+
+
 .wrapper{
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -379,17 +395,6 @@ form{
     gap: 1em;
     padding-bottom: 1em;
 }
-
-#footer{
-    background-color: #0C1524;
-    padding: 12em 0 4em 6em;
- 
-}
-.image2 img{
-    width: 140px;
-    height: 44px;
-    margin-bottom: 1.5em;
-}
 .wrap li{
     list-style: none;
     padding-bottom: 1em;
@@ -422,7 +427,7 @@ form{
         color: #C8CDD1;
         padding-left: 2em;
         font-family: helvetica;
-        font-size: 1em;
+        font-size: .8em;
     }
     nav{
         padding-top: 0.4em;
@@ -451,7 +456,7 @@ form{
 
 .location .btn{
     font-size: 1em;
-    padding: 1em 7.3em 1em 7.3em;
+    padding: 0.8em 5em 0.8em 5em;
   
 }
 
@@ -618,6 +623,97 @@ form{
     font-family: sans-serif;
 
 }
+.innersemisection4 .today{
+    font-size: 1.8em;
+    padding: 2em 0 0.5em 0;
+    font-family: sans-serif;
+  
+
+}
+
+.innersemisection4 .require{
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+form{
+    padding-top: .6em;
+}
+.innersemisection4 input{
+    width: 100%;
+    border: none;
+    padding-inline: 2em;
+    border-radius: 100px;
+    padding-block: 1.2em;
+
+}
 
 
+.btn1{
+    font-size: 1em;
+    width: 100%;
+    padding-inline: 0;
+    margin-left: 0;
+    margin-top: 2em;
+    padding-block: 1em;
+    background-color: #4FC4D5;
+    font-weight: bold;
+}
+
+#footer{
+    padding: 12em 0 2em 2em;
+ 
+}
+.image2 img{
+    width: 220px;
+    height: 55px;
+    margin-bottom: 2em;
+    margin-left: 1.2em;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    
+}
+
+
+
+.innerwrap{
+    grid-template-columns: 1fr;
+}
+
+
+.innerwrap2{
+    display: flex;
+    flex-direction: column;
+}
+.semiwrap{
+    margin-left: 0em;
+    width: 100%;
+   
+
+}
+
+
+.wrap li{
+    list-style: none;
+    padding-bottom: 1em;
+    /* text-align: center; */
+}
+
+.wrap  ul{
+    padding: 0;
+    margin: 0;
+}
+
+.wrap a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.semiwrap{
+    margin-top: 2.8em;
+}
 }
