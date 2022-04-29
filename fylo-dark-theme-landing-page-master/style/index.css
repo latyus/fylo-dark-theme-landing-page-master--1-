@@ -412,7 +412,22 @@ form{
     font-family: sans-serif;
 }
 
+.icons{
+    display: flex;
+    gap: 1em;
+}
+
+.fa-brands{
+    background-color: #0C1524;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5em;
+}
+
 @media(max-width:769px){
+    .icons{
+        margin-left:6em;
+    }
     header{
         padding-inline: 2em;
         padding-top: 2em;
@@ -581,6 +596,7 @@ form{
     padding-inline: 3.3em;
 
 }
+
 
 
 .innersection4 .box4{
